@@ -1,0 +1,56 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body{
+    background-color: #282D32;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: $textcolor;
+    @extend %Poppins-500;
+ }
+
+ .parent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
+ .container{
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+
+ .container1238{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .hidden{
+      display: none !important;
+  }
+
+  .title{
+   @extend %Poppins-600;
+   font-size: 36px;
+   text-transform: uppercase;
+   text-align: center;
+   span{
+       color: $accent;
+   }
+}
+  .a{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: $textcolor;
+    @extend %Poppins-500;
+ }
+
+
+ @media (max-width: 450px){
+   .title{
+      font-size: 30px;
+   }
+ }

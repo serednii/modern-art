@@ -1,0 +1,44 @@
+$accent: #C6A47E;
+$textcolor: #FAF8F2;
+$squareFull: #353C43;
+
+
+%IrishGrover-400{
+    font-family: 'IrishGrover-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%Poppins-400{
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%Poppins-500{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%Poppins-600{
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
+}
+
+%Poppins-700{
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%btn{
+    padding: 14px 63px 13px 33px;
+    color: #fff;
+    @extend %Poppins-600;
+    background-color: $accent;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+%btn:hover{
+   background-color: #FAF8F2;
+   color: #C6A47E;
+}

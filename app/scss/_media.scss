@@ -1,0 +1,492 @@
+@media (max-width: 1450px) {
+    .about {
+        &__inner-fon {
+            background-repeat: repeat;
+        }
+    }
+
+    .projects {
+        &__items {
+            justify-content: center;
+        }
+
+        .area-4 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+        .area-5 {
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+    }
+
+    .planning {
+        &__fon {
+            width: 100%;
+        }
+
+        &__img {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+    }
+
+    .team {
+        &__item {
+            margin-bottom: 75px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .blog {
+        &__list {
+            justify-content: center;
+        }
+
+        &__fon {
+            background-repeat: repeat;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .projects {
+        .area-5 {
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+
+        .area-6 {
+            grid-column: 2/3;
+            grid-row: 3/5;
+        }
+    }
+
+    .testimonial {
+        &__list {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            margin-bottom: 75px;
+        }
+
+        .partners {
+            &__list {
+                gap: 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .testimonial {
+        .partners {
+            &__list {
+                flex-wrap: wrap;
+                gap: 50px;
+                padding: 20px;
+            }
+        }
+    }
+
+    .footer {
+        .footer-top {
+            &__item {
+                margin-bottom: 50px;
+            }
+
+            &__services {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+
+
+    .testimonial {
+        .partners {
+            &__list {
+                gap: 65px;
+            }
+        }
+    }
+
+    .top-slider {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__subtitle {
+            font-size: 26px;
+        }
+
+        &__content {
+            min-width: 490px;
+        }
+    }
+
+
+    .planning {
+        .project-info {
+            &__list {
+                gap: 70px;
+            }
+
+            &__num {
+                font-size: 35px;
+            }
+
+            &__title {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .planning {
+        .project-info {
+            &__list {
+                gap: 53px;
+                flex-wrap: wrap;
+                padding: 20px;
+        
+            }
+        }
+    }
+
+    .planning {
+        &__item-text {
+            max-width: 385px;
+        }
+    }
+
+    .projects {
+        .area-3 {
+            grid-column: 1/2;
+            grid-row: 3/5;
+        }
+
+        .area-4 {
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+
+        .area-5 {
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+
+        .area-6 {
+            grid-column: 1/2;
+            grid-row: 8/10;
+        }
+    }
+
+    .top-slider {
+        &__title {
+            font-size: 26px;
+        }
+
+        &__subtitle {
+            font-size: 24px;
+        }
+
+        &__text {
+            font-size: 14px;
+            max-width: 375px;
+        }
+
+        &__content {
+            height: 270px;
+            min-width: 467px;
+        }
+    }
+
+    .about {
+        &__inner {
+            gap: 20px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__images {
+            min-height: auto;
+            margin-bottom: 2rem;
+        }
+
+        &__image-1 {
+            display: none;
+        }
+
+        &__image-2 {
+            position: static;
+            top: 50%;
+            left: 50%;
+            margin: 0 auto;
+            // transform: translate(-50%, -50%);
+            img {
+                width: 100%;
+            }
+        }
+
+        &__border {
+            display: none;
+        }
+     
+    }
+}
+
+@media (max-width: 620px) {
+    .testimonial {
+        &__inner {
+            margin-bottom: 100px;
+        }
+    }
+
+    .planning {
+        &__content {
+            padding-left: 20px;
+        }
+
+        &__item-text {
+            max-width: 350px;
+            font-size: 14px;
+        }
+
+        &__item-num {
+            font-size: 33px;
+            width: 100px;
+            height: 100px;
+            padding: 27px 35px;
+        }
+    }
+
+    .top-slider {
+        &__title {
+            font-size: 20px;
+        }
+
+        &__subtitle {
+            font-size: 17px;
+        }
+
+        &__text {
+            font-size: 12px;
+            max-width: 206px;
+        }
+
+        &__content {
+            height: 265px;
+            min-width: 268px;
+        }
+
+        &__btn {
+            padding: 12px 30px 13px 18px;
+            height: 45px;
+
+            &::after {
+                right: 8px;
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            top: 85%;
+        }
+    }
+
+    .about {
+        margin-bottom: 30px;
+
+        &__experience {
+            width: 400px;
+            margin-bottom: 45px;
+        }
+
+        &__text {
+            font-size: 15px;
+            // max-width: 240px;
+        }
+
+        &__subtitle {
+            font-size: 25px;
+            // max-width: 250px;
+        }
+
+        &__experience-num {
+            font-size: 35px;
+            padding-right: 26px;
+        }
+
+        &__experience-text {
+            font-size: 22px;
+        }
+
+        &__experience {
+            padding: 14px 12px 14px;
+            width: initial;
+            min-height: 115px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        .logo {
+            justify-content: left;
+
+            &__img {
+                margin-top: -9px;
+            }
+
+            &__title {
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .footer {
+        .logo {
+            &__img {
+                display: none;
+            }
+        }
+    }
+
+    .blog {
+        &__box {
+            font-size: 14px;
+        }
+
+        &__box-autor {
+            font-size: 14px;
+        }
+
+        &__item-title {
+            font-size: 15px;
+        }
+
+        &__item-text {
+            font-size: 13px;
+        }
+
+        &__item-content {
+            padding: 18px 15px;
+        }
+
+        .contact {
+            &__title {
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+
+            &__inner {
+                padding: 50px 20px;
+            }
+
+            &__input-name {
+                width: 225px;
+            }
+
+            &__input-number {
+                width: 225px;
+            }
+        }
+    }
+
+    .services {
+        &__item-text {
+            max-width: 230px;
+        }
+
+        &__btn {
+            font-size: 14px;
+        }
+    }
+
+    .projects {
+        margin-bottom: 50px;
+    }
+
+    .planning {
+        &__inner {
+            margin-bottom: 70px;
+        }
+
+        &__title {
+            max-width: 270px;
+            font-size: 28px;
+        }
+
+        &__item-text {
+            max-width: 185px;
+        }
+
+        &__item-num {
+            display: none;
+        }
+    }
+
+    .header {
+        .logo {
+            &__img {
+                display: none;
+            }
+
+            &__title {
+                font-size: 23px;
+            }
+        }
+    }
+
+
+    .testimonial {
+        &__inner {
+            margin-bottom: 50px;
+        }
+
+        &__item::before {
+            bottom: 68px;
+            right: 18px;
+        }
+
+        &__item::after {
+            top: 18px;
+            left: 16px;
+        }
+
+        &__icon {
+            display: none;
+        }
+
+        &__item-text {
+            font-size: 14px;
+            max-width: 210px;
+        }
+
+        .partners {
+            &__list {
+                gap: 30px;
+            }
+        }
+    }
+
+    .team {
+       &__inner{
+           margin-bottom: 50px;
+       } 
+    }
+}
